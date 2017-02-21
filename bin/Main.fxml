@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Rectangle?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="300" prefWidth="300"  xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <BorderPane prefHeight="300" prefWidth="100">
+         <center>
+            <BorderPane prefHeight="284" prefWidth="92.0" style="-fx-background-color: aqua;" BorderPane.alignment="CENTER" />
+         </center>
+         <top>
+            <BorderPane prefHeight="10" prefWidth="100" style="-fx-background-color: red;" BorderPane.alignment="CENTER" />
+         </top>
+         <left>
+            <BorderPane prefHeight="100" prefWidth="10" style="-fx-background-color: gray;" BorderPane.alignment="CENTER" />
+         </left>
+         <right>
+            <BorderPane prefHeight="100" prefWidth="10" style="-fx-background-color: hotpink;" BorderPane.alignment="CENTER" />
+         </right>
+         <bottom>
+            <BorderPane prefHeight="10" prefWidth="100" style="-fx-background-color: yellow;" BorderPane.alignment="CENTER" />
+         </bottom>
+      </BorderPane>
+      <VBox layoutX="100" layoutY="-1.0" prefHeight="150" prefWidth="100">
+         <children>
+            <BorderPane prefHeight="150" prefWidth="100">
+               <top>
+                  <BorderPane prefHeight="46.0" prefWidth="100" style="-fx-background-color: lime;" BorderPane.alignment="CENTER" />
+               </top>
+               <right>
+                  <BorderPane prefHeight="75.0" prefWidth="20.0" style="-fx-background-color: lime;" BorderPane.alignment="CENTER" />
+               </right>
+               <bottom>
+                  <BorderPane prefHeight="45.0" prefWidth="100" style="-fx-background-color: lime;" BorderPane.alignment="CENTER" />
+               </bottom>
+               <left>
+                  <BorderPane prefHeight="150" prefWidth="20.0" style="-fx-background-color: lime;" BorderPane.alignment="CENTER" />
+               </left>
+               <center>
+                  <GridPane style="-fx-background-color: pink;">
+                    <columnConstraints>
+                      <ColumnConstraints hgrow="SOMETIMES" minWidth="10" prefWidth="100" />
+                      <ColumnConstraints hgrow="SOMETIMES" minWidth="10" prefWidth="100" />
+                    </columnConstraints>
+                    <rowConstraints>
+                      <RowConstraints minHeight="10" prefHeight="30.0" vgrow="SOMETIMES" />
+                      <RowConstraints minHeight="10" prefHeight="30.0" vgrow="SOMETIMES" />
+                    </rowConstraints>
+                     <children>
+                        <HBox prefHeight="100" prefWidth="200.0" style="-fx-background-color: yellow;" GridPane.columnIndex="1" />
+                        <HBox prefHeight="100" prefWidth="200.0" style="-fx-background-color: yellow;" GridPane.hgrow="ALWAYS" GridPane.rowIndex="1" GridPane.vgrow="ALWAYS" />
+                     </children>
+                  </GridPane>
+               </center>
+            </BorderPane>
+         </children>
+      </VBox>
+      <VBox layoutX="100" layoutY="150" prefHeight="150" prefWidth="100" AnchorPane.leftAnchor="100">
+         <children>
+            <GridPane prefHeight="128.0" prefWidth="87.0" style="-fx-background-color: white; -fx-background-color: black;" VBox.vgrow="ALWAYS">
+              <columnConstraints>
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="15" prefWidth="100" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10" prefWidth="100" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10" prefWidth="100" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10" prefWidth="100" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10" prefWidth="100" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10" prefWidth="100" />
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10" prefWidth="100" />
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10" prefWidth="100" />
+              </columnConstraints>
+              <rowConstraints>
+                <RowConstraints minHeight="10" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10" prefHeight="30.0" vgrow="SOMETIMES" />
+              </rowConstraints>
+               <children>
+                  <HBox prefHeight="100" prefWidth="200.0" style="-fx-background-color: white;" GridPane.columnIndex="1" />
+                  <HBox prefHeight="100" prefWidth="200.0" style="-fx-background-color: white;" GridPane.columnIndex="3" />
+                  <HBox prefHeight="100" prefWidth="200.0" style="-fx-background-color: white;" GridPane.columnIndex="5" />
+                  <HBox prefHeight="100" prefWidth="200.0" style="-fx-background-color: white;" GridPane.columnIndex="7" />
+                  <HBox prefHeight="100" prefWidth="200.0" style="-fx-background-color: white;" GridPane.rowIndex="1" />
+                  <HBox prefHeight="100" prefWidth="200.0" style="-fx-background-color: white;" GridPane.columnIndex="2" GridPane.rowIndex="1" />
+                  <HBox prefHeight="100" prefWidth="200.0" style="-fx-background-color: white;" GridPane.columnIndex="4" GridPane.rowIndex="1" />
+                  <HBox prefHeight="100" prefWidth="200.0" style="-fx-background-color: white;" GridPane.columnIndex="6" GridPane.rowIndex="1" />
+                  <HBox prefHeight="100" prefWidth="200.0" style="-fx-background-color: white;" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+                  <HBox prefHeight="100" prefWidth="200.0" style="-fx-background-color: white;" GridPane.columnIndex="3" GridPane.rowIndex="2" />
+                  <HBox prefHeight="100" prefWidth="200.0" style="-fx-background-color: white;" GridPane.columnIndex="5" GridPane.rowIndex="2" />
+                  <HBox prefHeight="100" prefWidth="200.0" style="-fx-background-color: white;" GridPane.columnIndex="7" GridPane.rowIndex="2" />
+                  <HBox prefHeight="100" prefWidth="200.0" style="-fx-background-color: white;" GridPane.rowIndex="3" />
+                  <HBox prefHeight="100" prefWidth="200.0" style="-fx-background-color: white;" GridPane.columnIndex="2" GridPane.rowIndex="3" />
+                  <HBox prefHeight="100" prefWidth="200.0" style="-fx-background-color: white;" GridPane.columnIndex="4" GridPane.rowIndex="3" />
+                  <HBox prefHeight="100" prefWidth="200.0" style="-fx-background-color: white;" GridPane.columnIndex="6" GridPane.rowIndex="3" />
+                  <HBox prefHeight="100" prefWidth="200.0" style="-fx-background-color: white;" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+                  <HBox prefHeight="100" prefWidth="200.0" style="-fx-background-color: white;" GridPane.columnIndex="3" GridPane.rowIndex="4" />
+                  <HBox prefHeight="100" prefWidth="200.0" style="-fx-background-color: white;" GridPane.columnIndex="5" GridPane.rowIndex="4" />
+                  <HBox prefHeight="100" prefWidth="200.0" style="-fx-background-color: white;" GridPane.columnIndex="7" GridPane.rowIndex="4" />
+                  <HBox prefHeight="100" prefWidth="200.0" style="-fx-background-color: white;" GridPane.rowIndex="5" />
+                  <HBox prefHeight="100" prefWidth="200.0" style="-fx-background-color: white;" GridPane.columnIndex="2" GridPane.rowIndex="5" />
+                  <HBox prefHeight="100" prefWidth="200.0" style="-fx-background-color: white;" GridPane.columnIndex="4" GridPane.rowIndex="5" />
+                  <HBox prefHeight="100" prefWidth="200.0" style="-fx-background-color: white;" GridPane.columnIndex="6" GridPane.rowIndex="5" />
+                  <HBox prefHeight="100" prefWidth="200.0" style="-fx-background-color: white;" GridPane.columnIndex="1" GridPane.rowIndex="6" />
+                  <HBox prefHeight="100" prefWidth="200.0" style="-fx-background-color: white;" GridPane.columnIndex="3" GridPane.rowIndex="6" />
+                  <HBox prefHeight="100" prefWidth="200.0" style="-fx-background-color: white;" GridPane.columnIndex="5" GridPane.rowIndex="6" />
+                  <HBox prefHeight="100" prefWidth="200.0" style="-fx-background-color: white;" GridPane.columnIndex="7" GridPane.rowIndex="6" />
+                  <HBox prefHeight="100" prefWidth="200.0" style="-fx-background-color: white;" GridPane.rowIndex="7" />
+                  <HBox prefHeight="100" prefWidth="200.0" style="-fx-background-color: white;" GridPane.columnIndex="2" GridPane.rowIndex="7" />
+                  <HBox prefHeight="100" prefWidth="200.0" style="-fx-background-color: white;" GridPane.columnIndex="4" GridPane.rowIndex="7" />
+                  <HBox prefHeight="100" prefWidth="200.0" style="-fx-background-color: white;" GridPane.columnIndex="6" GridPane.rowIndex="7" />
+               </children>
+            </GridPane>
+         </children>
+      </VBox>
+      <VBox layoutX="200.0" prefHeight="300" prefWidth="100">
+         <children>
+            <Pane prefHeight="97.0" prefWidth="89.0" style="-fx-background-color: blue;" VBox.vgrow="ALWAYS" />
+            <Pane prefHeight="100" prefWidth="100" style="-fx-background-color: pink;" VBox.vgrow="ALWAYS" />
+            <Pane prefHeight="99.0" prefWidth="94.0" style="-fx-background-color: grey;" VBox.vgrow="ALWAYS">
+               <children>
+                  <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ff411f" height="18.0" layoutX="14.0" layoutY="14.0" stroke="#ff411ff5" strokeType="INSIDE" width="21.0" />
+                  <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ffc921" height="18.0" layoutX="40.0" layoutY="14.0" stroke="#ffc921f5" strokeType="INSIDE" width="21.0" />
+                  <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ffb621" height="18.0" layoutX="65.0" layoutY="14.0" stroke="#ffc921f5" strokeType="INSIDE" width="21.0" />
+               </children></Pane>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>
